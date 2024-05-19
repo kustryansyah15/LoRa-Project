@@ -9,13 +9,13 @@ import numpy as np
 import skfuzzy as fuzz
 from skfuzzy import control as ctrl
 
-broker = '103.156.114.74'
-port = 30425
-topic = "LORA-IOT/pubs/node01"
+broker = 'XXX'
+port = XXX
+topic = "XXX"
 
 client_id = f'python-mqtt-{random.randint(0, 1000)}'
-username = 'adminlcs'
-password = 'adminlcs123'
+username = 'XXX'
+password = 'XXX'
 
 def connect_mqtt():
     def on_connect(client, userdata, flags, rc):
