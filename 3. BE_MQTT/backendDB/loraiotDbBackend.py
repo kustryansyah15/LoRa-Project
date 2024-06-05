@@ -34,9 +34,9 @@ def connect_mqtt():
         # Establish a connection to the MySQL database
         connection = mysql.connector.connect(
             host="localhost",
-            user="mfkk",
-            password="Mfkk123!",
-            database="loraiot",
+            user="username",
+            password="password",
+            database="database",
             auth_plugin='mysql_native_password'
         )
         cursor = connection.cursor()
